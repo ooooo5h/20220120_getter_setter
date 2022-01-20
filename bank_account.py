@@ -15,4 +15,4 @@ class BankAccount:
     @money.setter
     def money(self, input_money):   # money변수에 값 대입시에 자동 실행될 코드를 추가(setter)
         print('누군가 금액을 변경합니다.')
-        self._money = input_money
+        self._money = input_money  
